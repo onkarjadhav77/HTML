@@ -1,0 +1,85 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.banner{
+    height: 450px;
+    width: auto;
+    background-image: url("../images/hero_image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+header{
+    height: 136px;
+    width: auto;
+    padding: 20px 60px;
+
+}
+
+.logo img{
+    float: left;
+    vertical-align: middle;
+}
+
+.links{
+    float: right;
+    font-size: 22px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    top:30px;
+}
+
+.links a{
+    margin-left: 50px;
+    margin-right: 30px;
+    text-decoration: none;
+    color: white;
+}
+.smallbutton a{
+    background-color: white;
+    border-radius: 20px;
+    color: royalblue;
+    padding: 9px;
+    text-decoration: none;
+    height: 44px;
+    box-sizing: border-box;
+    margin-left: 40px;
+}
+
+.smallb a{
+    background-color:royalblue;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+    font-size: 22px;
+    text-decoration: none;
+    height: 44px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 40px;
+    right: 80px;
+}
+
+.about{
+    padding: 100px;
+    background-color: royalblue;
+    text-align: center;
+    color: white;
+}
+
+.about h3{
+    font-size: 52px;
+}
+
+.about p{
+    font-size: 42px;
+}
+
+.wrapper{
+    width: 1280px;
+    margin: auto;
+}
