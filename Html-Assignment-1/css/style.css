@@ -3,8 +3,17 @@ body{
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
+
+.container{
+    width: 1920px;
+}
+
+.wrapper{
+    width: 1280px;
+    margin: auto;
+}
 .banner{
-    height: 450px;
+    height: 657px;
     width: auto;
     background-image: url("../images/hero_image.png");
     background-repeat: no-repeat;
@@ -79,7 +88,129 @@ header{
     font-size: 42px;
 }
 
-.wrapper{
-    width: 1280px;
+.work{
+    padding-top: 100px;
+    text-align: center;
+    color: royalblue;
+}
+
+.work h3{
+    font-size: 52px;
+    margin-bottom: 100px;
+}
+ 
+.image img{
+    float: left;
+    height: 389px;
+    width: 416px;
+    margin:5px;
+}
+
+#dog{
+    height: 389px;
+    width: 842px;
+    margin:5px;
+}
+
+.image{
+    overflow: hidden;
+}
+
+.test{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    color: royalblue;
+}
+
+.inner{
+    width: 840px;
     margin: auto;
+    text-align: center;
+}
+
+.test h3{
+    font-size: 52px;
+}
+
+.test h4{
+    font-size: 42px;
+    font-style: normal;
+    color: #9EC0FF;
+}
+
+.test p{
+    font-size: 32px;
+    color: #9EC0FF;
+}
+
+.test img{
+    border-radius: 50%;
+}
+
+
+
+.indicator div {
+    height: 26px;
+    width: 26px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: lightgray;
+    display: inline-block;
+}
+
+.indicator div:first-child{
+    background-color: #9EC0FF;
+}
+
+.cardholder{
+    background-color: royalblue;
+    position: relative;
+    width: 100%;
+    padding: 40px;
+}
+
+.card{
+    width: 336px;
+    margin: 50px 50px 50px 65px;
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    padding: 60px 40px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.cards{
+    margin: 20px;
+    padding: 20px;
+}
+
+.card h4{
+    font-size: 30px;
+}
+
+.card p{
+    font-size: 24px;
+}
+
+.card a{
+    text-decoration: none;
+    color:  #9EC0FF;
+}
+
+.arrowl{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+    margin: 20px;
+}
+
+.arrowr{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    margin: 20px;
 }
