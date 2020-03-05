@@ -166,7 +166,6 @@ header{
 .cardholder{
     background-color: royalblue;
     position: relative;
-    width: 100%;
     padding: 40px;
 }
 
@@ -179,11 +178,8 @@ header{
     padding: 60px 40px;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
-}
-
-.cards{
-    margin: 20px;
-    padding: 20px;
+    box-shadow: 2px 2px 5px 5px #9EC0FF;
+    border-radius: 5px;
 }
 
 .card h4{
@@ -213,4 +209,108 @@ header{
     transform: translateY(-50%);
     right: 20px;
     margin: 20px;
+}
+
+.form{
+    width: 1280px;
+    margin: auto;
+    padding-top: 100px;
+    overflow: hidden;
+    box-sizing: border-box;
+
+}
+
+.formfield{
+    float: left;
+    padding: 10px;
+    width: 620px;
+}
+
+.formfield input{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    height: 60px;
+    padding-left: 20px;
+    width: 550px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-bottom: 47px;
+}
+
+.formfield input[type="button"]{
+    width: auto;
+    padding: 5px 30px;
+    font-size: 25px;
+    height: 68px;
+    border-radius: 40px;
+    background-color: royalblue;
+    color: white;
+    margin-top: 30px;
+}
+
+.form h3{
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+ .message{
+     float: right;
+     width: 620px;
+     height: 440px;
+     padding: 10px;
+     box-sizing: border-box;
+ }
+
+ .message textarea{
+     width: 100%;
+     font-family: 'Montserrat', sans-serif;
+     height: auto;
+     font-size: 18px;
+     padding: 20px;
+     width: 550px;
+     border-radius: 5px;
+     border: 1px solid gray;
+ }
+
+footer{
+    margin-top: 100px;
+    padding: 100px;
+    background-color: royalblue;
+    overflow: hidden;
+} 
+
+footer div{
+    display: inline-block;
+    margin: 0 50px;
+    color: white;
+}
+
+.info{
+    margin-left: 100px;
+}
+
+.info div{
+     float: left;
+} 
+
+footer h4{
+    font-size: 32px;
+}
+
+footer p{
+    font-size: 24px;
+}
+
+.footlogo{
+    float: left;
+    margin-top: 100px;
+}
+
+.social{
+    float: right;
+    margin: 60px auto;
+}
+
+.social img{
+    margin: 30px;
 }
