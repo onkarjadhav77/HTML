@@ -1,319 +1,359 @@
-body{
-    padding: 0;
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.container{
-    width: 1920px;
-}
-
-.wrapper{
-    width: 1280px;
-    margin: auto;
-}
-.banner{
-    height: 657px;
-    width: auto;
-    background-image: url("../images/hero_image.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-header{
-    height: 136px;
-    width: auto;
-    padding: 20px 60px;
-
-}
-
-.logo img{
-    float: left;
-    vertical-align: middle;
-}
-
-.links{
-    float: right;
-    font-size: 22px;
-    text-align: center;
-    vertical-align: middle;
-    position: relative;
-    top:30px;
-}
-
-.links a{
-    margin-left: 50px;
-    margin-right: 30px;
-    text-decoration: none;
-    color: white;
-}
-.smallbutton a{
-    background-color: white;
-    border-radius: 20px;
-    color:  rgb(56, 125, 255);
-    padding: 9px;
-    text-decoration: none;
-    height: 44px;
-    box-sizing: border-box;
-    margin-left: 40px;
-}
-
-.smallb a{
-    background-color: rgb(56, 125, 255);
-    border-radius: 20px;
-    color: white;
-    padding: 10px;
-    font-size: 22px;
-    text-decoration: none;
-    height: 44px;
-    box-sizing: border-box;
-    position: absolute;
-    bottom: 40px;
-    right: 80px;
-}
-
-.about{
-    padding: 100px;
-    background-color:  rgb(56, 125, 255);
-    text-align: center;
-    color: white;
-}
-
-.about h3{
-    font-size: 52px;
-}
-
-.about p{
-    font-size: 42px;
-}
-
-.work{
-    padding-top: 100px;
-    text-align: center;
-    color:  rgb(56, 125, 255);
-}
-
-.work h3{
-    font-size: 52px;
-    margin-bottom: 100px;
-}
- 
-.image img{
-    float: left;
-    height: 389px;
-    width: 416px;
-    margin:5px;
-}
-
-#dog{
-    height: 389px;
-    width: 842px;
-    margin:5px;
-}
-
-.image{
-    overflow: hidden;
-}
-
-.test{
-    padding-top: 100px;
-    padding-bottom: 100px;
-    text-align: center;
-    color:  rgb(56, 125, 255);
-}
-
-.inner{
-    width: 840px;
-    margin: auto;
-    text-align: center;
-}
-
-.test h3{
-    font-size: 52px;
-}
-
-.test h4{
-    font-size: 42px;
-    font-style: normal;
-    color: #9EC0FF;
-}
-
-.test p{
-    font-size: 32px;
-    color: #9EC0FF;
-}
-
-.test img{
-    border-radius: 50%;
-}
-
-
-
-.indicator div {
-    height: 26px;
-    width: 26px;
-    margin: 10px;
-    border-radius: 50%;
-    background-color: lightgray;
-    display: inline-block;
-}
-
-.indicator div:first-child{
-    background-color: #9EC0FF;
-}
-
-.cardholder{
-    background-color:  rgb(56, 125, 255);
-    position: relative;
-    padding: 40px;
-}
-
-.card{
-    width: 336px;
-    margin: 50px 50px 50px 65px;
-    display: inline-block;
-    background-color: white;
-    text-align: center;
-    word-wrap: wrap break-word;
-    padding: 60px 40px;
-    box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
-    box-shadow: 2px 2px 5px 5px #9EC0FF;
-    border-radius: 5px;
-}
-
-.card h4{
-    font-size: 30px;
-}
-
-.card p{
-    font-size: 24px;
-}
-
-.card a{
-    text-decoration: none;
-    color:  #9EC0FF;
-}
-
-.arrowl{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 20px;
-    margin: 20px;
-}
-
-.arrowr{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 20px;
-    margin: 20px;
-}
-
-.form{
-    width: 1280px;
-    margin: auto;
-    padding-top: 100px;
-    overflow: hidden;
-    box-sizing: border-box;
-
-}
-
-.formfield{
-    float: left;
-    padding: 10px;
-    width: 620px;
-}
-
-.formfield input{
-    font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
-    height: 60px;
-    padding-left: 20px;
-    width: 550px;
-    border-radius: 5px;
-    border: 1px solid gray;
-    margin-bottom: 49px;
-}
-
-.formfield input[type="button"]{
-    width: auto;
-    padding: 5px 30px;
-    font-size: 25px;
-    height: 68px;
-    border-radius: 40px;
-    background-color:  rgb(56, 125, 255);
-    color: white;
-    margin-top: 30px;
-}
-
-.form h3{
-    font-size: 40px;
-    margin-left: 10px;
-}
-
- .message{
-     float: right;
-     width: 620px;
-     height: 440px;
-     padding: 10px;
-     box-sizing: border-box;
- }
-
- .message textarea{
-     width: 100%;
-     font-family: 'Montserrat', sans-serif;
-     height: auto;
-     font-size: 18px;
-     padding: 20px;
-     width: 550px;
-     border-radius: 5px;
-     border: 1px solid gray;
- }
-
-footer{
-    margin-top: 100px;
-    padding: 100px;
-    background-color: rgb(56, 125, 255);
-    overflow: hidden;
-} 
-
-footer div{
-    display: inline-block;
-    margin: 0 50px;
-    color: white;
-}
-
-.info{
-    margin-left: 100px;
-}
-
-.info div{
-     float: left;
-     word-wrap: break-word;
-     max-width: 300px;
-} 
-
-footer h4{
-    font-size: 32px;
-}
-
-footer p{
-    font-size: 24px;
-}
-
-.footlogo{
-    float: left;
-    margin-top: 100px;
-}
-
-.social{
-    float: right;
-    margin: 60px auto;
-}
-
-.social img{
-    margin: 30px;
-}
+    * {
+        box-sizing: border-box;
+    }
+    
+    a {
+        text-decoration: none;
+        color: rgb(56, 125, 255);
+    }
+    
+    h3 {
+        font-size: 52px;
+        margin-bottom: 40px;
+    }
+    
+    img {
+        margin-bottom: 40px;
+    }
+    
+    p {
+        font-size: 24px;
+        margin: 20px;
+    }
+    
+    body {
+        padding: 0;
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .container {
+        width: 100%;
+        min-width: 1280px;
+    }
+    
+    .wrapper {
+        width: 1280px;
+        margin: auto;
+    }
+    
+    .banner {
+        height: 657px;
+        width: auto;
+        background-image: url("../images/hero_image.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    header {
+        height: 136px;
+        width: auto;
+        padding: 20px 60px;
+    }
+    
+    .logo {
+        float: left;
+        vertical-align: middle;
+    }
+    
+    .links {
+        float: right;
+        font-size: 22px;
+        text-align: center;
+        vertical-align: middle;
+        position: relative;
+        top: 30px;
+    }
+    
+    .links a {
+        margin-left: 50px;
+        margin-right: 30px;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .smallbutton a {
+        background-color: white;
+        border-radius: 20px;
+        color: rgb(56, 125, 255);
+        padding: 9px;
+        height: 44px;
+        margin-left: 40px;
+    }
+    
+    a.smallb {
+        background-color: rgb(56, 125, 255);
+        border-radius: 20px;
+        color: white;
+        padding: 10px;
+        font-size: 22px;
+        height: 44px;
+        position: absolute;
+        bottom: 40px;
+        right: 80px;
+    }
+    
+    .about {
+        padding: 100px;
+        background-color: rgb(56, 125, 255);
+        text-align: center;
+        color: white;
+    }
+    
+    .about p {
+        font-size: 42px;
+    }
+    
+    .work {
+        padding-top: 100px;
+        text-align: center;
+        color: rgb(56, 125, 255);
+    }
+    
+    .work h3 {
+        margin-bottom: 100px;
+    }
+    
+    .image img {
+        float: left;
+        height: 389px;
+        width: 416px;
+        margin: 5px;
+    }
+    
+    #dog {
+        height: 389px;
+        width: 842px;
+        margin: 5px;
+    }
+    
+    .image {
+        overflow: hidden;
+    }
+    
+    .test {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        text-align: center;
+        color: rgb(56, 125, 255);
+    }
+    
+    .inner {
+        width: 840px;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .test h4 {
+        font-size: 42px;
+        margin-bottom: 40px;
+        color: #9EC0FF;
+    }
+    
+    .test p {
+        font-size: 32px;
+        color: #9EC0FF;
+    }
+    
+    .test img {
+        border-radius: 50%;
+        margin-bottom: 40px;
+    }
+    
+    .indicator a {
+        height: 26px;
+        width: 26px;
+        margin: 10px;
+        border-radius: 50%;
+        background-color: lightgray;
+        display: inline-block;
+    }
+    
+    .indicator a:first-child {
+        background-color: #9EC0FF;
+    }
+    
+    .cardholder {
+        background-color: rgb(56, 125, 255);
+        position: relative;
+        padding: 40px;
+    }
+    
+    .cards {
+        padding: 60px;
+        margin: auto;
+    }
+    
+    .card {
+        width: 22%;
+        margin-right: 4%;
+        display: inline-block;
+        background-color: white;
+        text-align: center;
+        word-wrap: wrap break-word;
+        padding: 60px 40px;
+        font-family: 'Lato', sans-serif;
+        box-shadow: 2px 2px 5px 5px #9EC0FF;
+        border-radius: 5px;
+    }
+    
+    .card:nth-child(4) {
+        margin-right: -4%;
+    }
+    
+    .card h4 {
+        font-size: 30px;
+    }
+    
+    .card a {
+        text-decoration: none;
+        color: #9EC0FF;
+    }
+    
+    .arrowl {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 20px;
+        margin: 20px;
+    }
+    
+    .arrowr {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 20px;
+        margin: 20px;
+    }
+    
+    .form {
+        width: 1280px;
+        margin: auto;
+        padding-top: 100px;
+        overflow: hidden;
+    }
+    
+    .formfield {
+        float: left;
+        padding: 10px;
+        width: 49%;
+    }
+    
+    .formfield input {
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        height: 60px;
+        padding-left: 20px;
+        width: 100%;
+        border-radius: 5px;
+        border: 1px solid gray;
+        margin-bottom: 41px;
+    }
+    
+    .formfield input[type="button"] {
+        width: auto;
+        padding: 5px 30px;
+        font-size: 25px;
+        height: 68px;
+        border-radius: 40px;
+        background-color: rgb(56, 125, 255);
+        color: white;
+        margin-top: 30px;
+    }
+    
+    .form h3 {
+        font-size: 40px;
+        margin-left: 10px;
+        margin-bottom: 40px;
+    }
+    
+    .message {
+        float: right;
+        width: 50%;
+        height: 440px;
+        padding: 10px;
+    }
+    
+    .message textarea {
+        width: 100%;
+        font-family: 'Montserrat', sans-serif;
+        height: auto;
+        font-size: 18px;
+        padding: 20px;
+        border-radius: 5px;
+        border: 1px solid gray;
+    }
+    
+    footer {
+        margin-top: 100px;
+        padding: 100px 50px;
+        width: 100%;
+        background-color: rgb(56, 125, 255);
+        overflow: hidden;
+    }
+    
+    footer div {
+        display: inline-block;
+        margin: auto 40px;
+        color: white;
+    }
+    
+    .info {
+        margin-left: 100px;
+        width: 65%;
+    }
+    
+    .info div {
+        float: left;
+        width: 27%;
+    }
+    
+    footer h4 {
+        font-size: 32px;
+    }
+    
+    .footlogo {
+        float: left;
+        margin-top: 50px;
+        width: 7%;
+    }
+    
+    .footlogo img {
+        margin: 0;
+    }
+    
+    .social {
+        float: right;
+        margin: 45px auto;
+        width: auto;
+    }
+    
+    .social a {
+        display: inline-block;
+        background-repeat: no-repeat;
+        margin: 10px 20px;
+    }
+    
+    footer p {
+        margin-left: 0;
+    }
+    
+    a.fb {
+        width: 20px;
+        height: 40px;
+        background-image: url("../images/fb_icon.png");
+    }
+    
+    a.insta {
+        width: 43px;
+        height: 43px;
+        background-image: url("../images/insta_icon.png");
+    }
+    
+    a.yt {
+        width: 56px;
+        height: 40px;
+        background-image: url("../images/youtube_icon.png");
+    }
