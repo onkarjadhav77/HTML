@@ -4,12 +4,17 @@
     
     a {
         text-decoration: none;
-        color: rgb(56, 125, 255);
+        color: rgb(39, 144, 214);
     }
     
     h3 {
         font-size: 52px;
         margin-bottom: 40px;
+        font-weight: bold;
+    }
+    
+    h4 {
+        font-weight: bold;
     }
     
     img {
@@ -19,6 +24,7 @@
     p {
         font-size: 24px;
         margin: 20px;
+        line-height: 60px;
     }
     
     body {
@@ -61,32 +67,32 @@
         float: right;
         font-size: 22px;
         text-align: center;
-        vertical-align: middle;
         position: relative;
         top: 30px;
     }
     
     .links a {
-        margin-left: 50px;
-        margin-right: 30px;
+        margin-left: 70px;
+        margin-right: 50px;
         text-decoration: none;
         color: white;
     }
     
     .smallbutton a {
         background-color: white;
-        border-radius: 20px;
-        color: rgb(56, 125, 255);
-        padding: 9px;
+        border-radius: 25px;
+        color: rgb(39, 144, 214);
+        padding: 12px 40px;
         height: 44px;
         margin-left: 40px;
     }
     
     a.smallbutton {
-        background-color: rgb(56, 125, 255);
-        border-radius: 20px;
+        background-color: rgb(39, 144, 214);
+        border-radius: 35px;
         color: white;
-        padding: 10px;
+        padding: 22px 50px;
+        padding-bottom: 40px;
         font-size: 22px;
         height: 44px;
         position: absolute;
@@ -96,7 +102,7 @@
     
     .about {
         padding: 100px 0;
-        background-color: rgb(56, 125, 255);
+        background-color: rgb(39, 144, 214);
         text-align: center;
         color: white;
     }
@@ -108,7 +114,7 @@
     .work {
         padding-top: 100px;
         text-align: center;
-        color: rgb(56, 125, 255);
+        color: rgb(39, 144, 214);
     }
     
     .work h3 {
@@ -136,7 +142,7 @@
         padding-top: 100px;
         padding-bottom: 100px;
         text-align: center;
-        color: rgb(56, 125, 255);
+        color: rgb(39, 144, 214);
     }
     
     .inner {
@@ -161,6 +167,10 @@
         margin-bottom: 40px;
     }
     
+    .indicator {
+        margin-top: 50px;
+    }
+    
     .indicator a {
         height: 26px;
         width: 26px;
@@ -175,7 +185,7 @@
     }
     
     .cardholder {
-        background-color: rgb(56, 125, 255);
+        background-color: rgb(39, 144, 214);
         position: relative;
         padding: 40px;
         overflow: hidden;
@@ -184,13 +194,13 @@
     .cardwrap {
         width: 100%;
         overflow: auto;
-        padding: 0 20px;
+        padding: 0 100px;
     }
     
     .cards {
         width: 25%;
         float: left;
-        padding: 15px;
+        padding: 20px;
     }
     
     .card {
@@ -210,6 +220,10 @@
     .card a {
         text-decoration: none;
         color: #9EC0FF;
+    }
+    
+    .card p {
+        line-height: 28px;
     }
     
     .arrowl {
@@ -254,11 +268,11 @@
     
     .formfield input[type="button"] {
         width: auto;
-        padding: 5px 30px;
+        padding: 5px 60px;
         font-size: 25px;
         height: 68px;
-        border-radius: 40px;
-        background-color: rgb(56, 125, 255);
+        border-radius: 50px;
+        background-color: rgb(39, 144, 214);
         color: white;
         margin-top: 30px;
     }
@@ -290,7 +304,7 @@
         margin-top: 100px;
         padding: 100px 50px;
         width: 100%;
-        background-color: rgb(56, 125, 255);
+        background-color: rgb(39, 144, 214);
         overflow: hidden;
     }
     
@@ -344,6 +358,7 @@
     footer p {
         margin-left: 0;
         word-wrap: break-word;
+        line-height: 40px;
     }
     
     a.fb {
