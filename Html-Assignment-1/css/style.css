@@ -154,12 +154,12 @@
     .testimonial h4 {
         font-size: 42px;
         margin-bottom: 40px;
-        color: #9EC0FF;
+        color: rgb(39, 144, 214);
     }
     
     .testimonial p {
         font-size: 32px;
-        color: #9EC0FF;
+        color: rgb(39, 144, 214);
     }
     
     .testimonial img {
@@ -270,11 +270,12 @@
         width: auto;
         padding: 5px 60px;
         font-size: 25px;
+        border: none;
         height: 68px;
         border-radius: 50px;
         background-color: rgb(39, 144, 214);
         color: white;
-        margin-top: 30px;
+        margin-top: 60px;
     }
     
     .form h3 {
@@ -336,6 +337,7 @@
     
     footer h4 {
         font-size: 32px;
+        line-height: 50px;
     }
     
     .footlogo img {
@@ -345,7 +347,7 @@
     .social {
         width: 25%;
         float: left;
-        padding-left: 40px;
+        padding-left: 80px;
         padding-top: 40px;
     }
     
