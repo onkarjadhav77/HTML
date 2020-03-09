@@ -10,11 +10,8 @@
     h3 {
         font-size: 52px;
         margin-bottom: 40px;
-        font-weight: bold;
-    }
-    
-    h4 {
-        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
     }
     
     img {
@@ -78,26 +75,29 @@
         color: white;
     }
     
-    .smallbutton a {
+    a.smallbutton {
+        height: 44px;
+        font-size: 22px;
+    }
+    
+    a.smallbutton.top {
         background-color: white;
         border-radius: 25px;
         color: rgb(39, 144, 214);
         padding: 12px 40px;
-        height: 44px;
         margin-left: 40px;
+        margin-right: 0;
     }
     
-    a.smallbutton {
+    a.smallbutton.down {
         background-color: rgb(39, 144, 214);
         border-radius: 35px;
         color: white;
         padding: 22px 50px;
         padding-bottom: 40px;
-        font-size: 22px;
-        height: 44px;
         position: absolute;
         bottom: 40px;
-        right: 80px;
+        right: 55px;
     }
     
     .about {
@@ -187,14 +187,14 @@
     .cardholder {
         background-color: rgb(39, 144, 214);
         position: relative;
-        padding: 40px;
+        padding: 40px 20px;
         overflow: hidden;
     }
     
     .cardwrap {
         width: 100%;
         overflow: auto;
-        padding: 0 100px;
+        padding: 0 70px;
     }
     
     .cards {
@@ -207,10 +207,10 @@
         background-color: white;
         text-align: center;
         word-wrap: wrap break-word;
-        padding: 60px 40px;
+        padding: 40px 15px;
         font-family: 'Lato', sans-serif;
-        box-shadow: 2px 2px 5px 5px #9EC0FF;
-        border-radius: 5px;
+        box-shadow: 1px 1px 4px 4px rgb(47, 85, 151);
+        border-radius: 10px;
     }
     
     .card h4 {
@@ -219,11 +219,13 @@
     
     .card a {
         text-decoration: none;
-        color: #9EC0FF;
+        color: rgb(39, 144, 214);
     }
     
     .card p {
         line-height: 28px;
+        margin-left: 0;
+        margin-right: 0;
     }
     
     .arrowl {
@@ -232,6 +234,7 @@
         transform: translateY(-50%);
         left: 20px;
         margin: 20px;
+        margin-left: 40px;
     }
     
     .arrowr {
@@ -240,6 +243,7 @@
         transform: translateY(-50%);
         right: 20px;
         margin: 20px;
+        margin-right: 40px;
     }
     
     .form {
@@ -282,6 +286,7 @@
         font-size: 40px;
         margin-left: 10px;
         margin-bottom: 40px;
+        font-weight: normal;
     }
     
     .message {
@@ -303,7 +308,7 @@
     
     footer {
         margin-top: 100px;
-        padding: 100px 50px;
+        padding: 100px 60px 50px;
         width: 100%;
         background-color: rgb(39, 144, 214);
         overflow: hidden;
@@ -332,7 +337,7 @@
     .info div {
         float: left;
         width: 33%;
-        padding-left: 50px;
+        padding-left: 70px;
     }
     
     footer h4 {
@@ -347,7 +352,7 @@
     .social {
         width: 25%;
         float: left;
-        padding-left: 40px;
+        text-align: right;
         padding-top: 40px;
     }
     
@@ -377,6 +382,7 @@
     
     a.yt {
         width: 56px;
+        margin-right: 0;
         height: 40px;
         background-image: url("../images/youtube_icon.png");
     }
