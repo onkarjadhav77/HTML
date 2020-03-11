@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #292929;
+}
+
+.container {
+    width: 100%;
+}
+
+.wrapper {
+    width: 1280px;
+    overflow: hidden;
+    margin: auto;
+    /* border: 2px solid red; */
+}
+
+a {
+    text-decoration: none;
+    color: #292929;
+}
+
+a.button {
+    background-color: #F79421;
+    color: white;
+    margin: 50px;
+    text-align: center;
+    height: 50px;
+    padding: 0 50px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+header {
+    padding-top: 10px;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background-color: white;
+}
+
+.logo {
+    float: left;
+}
+
+.head {
+    float: right;
+    overflow: hidden;
+}
+
+.contact {
+    float: right;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.navigate {
+    font-size: 16px;
+    margin-top: 60px;
+    font-weight: 600;
+}
+
+.navigate a {
+    margin-left: 40px;
+}
+
+.navigate a:hover {
+    color: #F79421;
+    text-decoration: underline;
+}
+
+.banner {
+    height: 540px;
+    background-image: url("../images/banner_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.texts {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    font-weight: 600;
+}
+
+.texts h2 {
+    font-size: 74px;
+}
+
+.texts h3 {
+    font-size: 52px;
+}
+
+.texts p {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.info {
+    float: left;
+    width: 50%;
+    padding: 100px 0;
+}
+
+.info h5 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.info h5 span {
+    color: #0872BA;
+}
+
+.info p {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    margin: 30px 0;
+    line-height: 1.5em;
+}
+
+.info{
+    clear: both;
+}
+
+.images{
+    width: 50%;
+    float: right;
+    position: relative;
+}
+
+.images::after{
+    clear: both;
+}
+
+.wrapper.visible{
+    overflow: visible;
+    position: relative;
+}
+
+.clear{
+    clear: both;
+}
+
+
+.logoimg{
+    position: absolute;
+    top: -50px;
+    right: -60px;
+    z-index: -2;
+}
+
+.lady{
+    position: absolute;
+    top: 20px;
+    right: 240px;
+    z-index: -1;
+}
+
+.consult{
+    height: 464px;
+    background-image: url("../images/middle_banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.colorover{
+    width: 100%;
+    height: 100%;
+    background-color: #0872BA;
+    opacity: 0.7;
+}
