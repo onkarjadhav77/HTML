@@ -209,7 +209,7 @@
         word-wrap: wrap break-word;
         padding: 40px 15px;
         font-family: 'Lato', sans-serif;
-        box-shadow: 1px 1px 4px 4px rgb(47, 85, 151);
+        box-shadow: 1px 1px 4px 2px rgb(32, 107, 156);
         border-radius: 10px;
     }
     
@@ -343,6 +343,7 @@
     footer h4 {
         font-size: 32px;
         line-height: 50px;
+        font-weight: 600;
     }
     
     .footlogo img {
