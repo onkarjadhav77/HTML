@@ -212,7 +212,7 @@ header {
     line-height: 2em;
 }
 
-.service-info{
+.service-info {
     overflow: hidden;
     margin: 0 -75px;
 }
@@ -224,7 +224,7 @@ header {
     padding: 100px 70px 0;
 }
 
-.service-info img{
+.service-info img {
     height: 48px;
 }
 
@@ -251,7 +251,7 @@ header {
     font-family: 'Lato', sans-serif;
 }
 
-.section-num{
+.section-num {
     height: 470px;
     background-image: url("../images/figures_bg.png");
     background-repeat: no-repeat;
@@ -261,40 +261,40 @@ header {
     text-align: center;
 }
 
-.section-num p{
+.section-num p {
     font-size: 30px;
     font-weight: 300;
     line-height: 1.5em;
     padding: 0 270px;
 }
 
-.number{
+.number {
     overflow: hidden;
     padding: 0 50px;
 }
 
-.number div{
+.number div {
     width: 25%;
     float: left;
     padding: 50px 0 0;
 }
 
-.number h3{
+.number h3 {
     font-size: 58px;
     line-height: 1.5em;
 }
 
-.number label{
+.number label {
     font-size: 20px;
     font-weight: 700;
     font-family: 'Lato', sans-serif;
 }
 
-.split{
+.split {
     overflow: auto;
 }
 
-.split a{
+.split a {
     font-size: 22px;
     font-weight: 500;
     display: inline-block;
@@ -302,13 +302,13 @@ header {
     margin: 30px 0;
 }
 
-.split p{
+.split p {
     font-size: 18px;
     font-family: 'Lato', sans-serif;
     line-height: 25px;
 }
 
-.video{
+.video {
     width: 50%;
     float: left;
     height: 500px;
@@ -319,7 +319,7 @@ header {
     color: white;
 }
 
-.detail{
+.detail {
     width: 50%;
     height: 500px;
     float: left;
@@ -328,7 +328,7 @@ header {
     color: #292929;
 }
 
-.client{
+.client {
     width: 640px;
     position: absolute;
     bottom: 20px;
@@ -337,11 +337,11 @@ header {
     padding: 10px 20px;
 }
 
-.client.bg{
+.client.bg {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.study{
+.study {
     width: 640px;
     position: absolute;
     bottom: 20px;
@@ -350,11 +350,11 @@ header {
     padding: 10px 20px;
 }
 
-.study.bg{
-    background-color: rgba(0,0,0,0.1);
+.study.bg {
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
-.client-content{
+.client-content {
     width: 640px;
     position: absolute;
     top: 0;
@@ -364,7 +364,7 @@ header {
     padding: 206px 100px 50px;
 }
 
-.study-content{
+.study-content {
     width: 640px;
     position: absolute;
     top: 0;
@@ -374,26 +374,106 @@ header {
     padding: 50px 100px;
 }
 
-.study-content img{
+.study-content img {
     margin-bottom: 30px;
 }
 
-.study a{
-    color:  #143763;
+.study a {
+    color: #143763;
 }
 
-.video a{
+.video a {
     color: white;
 }
 
-.study h3{
+.study h3 {
     font-size: 26px;
     font-weight: 600;
     line-height: 1.5;
 }
 
-.client h3{
+.client h3 {
     font-size: 26px;
     font-weight: 600;
     line-height: 1.5;
+}
+
+.team {
+    position: relative;
+    background-color: #636363;
+    z-index: -2;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.backimg {
+    position: absolute;
+    height: 110%;
+    bottom: 0;
+    left: -80px;
+    top: -50px;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+.title {
+    margin: auto;
+    text-align: center;
+}
+
+.title h3 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.title p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.people {
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 50px;
+}
+
+.wrapper.position{
+    position: relative;
+}
+
+.member{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    margin: 20px 0 20px 55px;
+}
+
+.arrow{
+    border: 1px solid white;
+    padding: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    right: 0;
+}
+
+.indicator {
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 25px;
+}
+
+.indicator a {
+    height: 14px;
+    width: 14px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: inline-block;
+    cursor: pointer;
+}
+
+.indicator a:first-child {
+    background-color: #FFF;
 }
