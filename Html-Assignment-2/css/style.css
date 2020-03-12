@@ -155,14 +155,14 @@ header {
 .logoimg{
     position: absolute;
     top: -50px;
-    right: -60px;
+    right: -35px;
     z-index: -2;
 }
 
 .lady{
     position: absolute;
-    top: 20px;
-    right: 240px;
+    top: 40px;
+    right: 280px;
     z-index: -1;
 }
 
