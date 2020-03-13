@@ -9,6 +9,8 @@ body {
 
 .container {
     width: 100%;
+    position: relative;
+    z-index: 1;
 }
 
 .wrapper {
@@ -23,7 +25,7 @@ a {
     color: #292929;
 }
 
-a.button {
+.button {
     background-color: #F79421;
     color: white;
     margin-top: 50px;
@@ -34,6 +36,11 @@ a.button {
     display: inline-block;
     font-weight: 500;
     line-height: normal;
+    border: none;
+}
+
+.button:hover{
+    background-color: rgb(187, 112, 27);
 }
 
 header {
@@ -58,6 +65,10 @@ header {
     font-family: 'Lato', sans-serif;
     font-size: 12px;
     font-weight: 300;
+}
+
+.contact a:hover{
+    color: #F79421;
 }
 
 .navigate {
@@ -103,6 +114,10 @@ header {
     font-size: 30px;
     font-weight: 400;
     margin-top: 50px;
+}
+
+.mid{
+    overflow: hidden;
 }
 
 .info {
@@ -154,7 +169,7 @@ header {
 .logoimg {
     position: absolute;
     top: -50px;
-    right: -35px;
+    right: -42px;
     z-index: -2;
 }
 
@@ -302,6 +317,10 @@ header {
     margin: 30px 0;
 }
 
+.split a:hover{
+    opacity: 0.6;
+}
+
 .split p {
     font-size: 18px;
     font-family: 'Lato', sans-serif;
@@ -402,6 +421,7 @@ header {
     position: relative;
     background-color: #636363;
     z-index: -2;
+    overflow: hidden;
     padding-top: 100px;
     padding-bottom: 50px;
     color: white;
@@ -449,6 +469,12 @@ header {
     margin: 20px 0 20px 55px;
 }
 
+.member:hover{
+    border: 1px double #e6e6e6;
+    /* box-shadow: 1px 1px 2px 2px rgb(85, 84, 83); */
+    /* opacity: 0.7; */
+}
+
 .arrow{
     border: 1px solid white;
     padding: 10px;
@@ -456,6 +482,10 @@ header {
     transform: translateY(-50%);
     position: absolute;
     right: 0;
+}
+
+.arrow:hover{
+    opacity: 0.6;
 }
 
 .indicator {
@@ -476,4 +506,164 @@ header {
 
 .indicator a:first-child {
     background-color: #FFF;
+}
+
+.form{
+    text-align: center;
+    padding: 100px 0;
+}
+
+form{
+    position: relative;
+}
+
+.line{
+    width: 70%;
+    border-top: 1px solid #686868;
+    position: absolute;
+    top: 44%;
+    left: 15%;
+    z-index: -1;
+}
+
+.form h3{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.form input[type="text"]{
+    width: 300px;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    border: 1px solid #686868;
+    padding: 10px;
+    margin: 100px 10px 30px;
+}
+
+
+.form input[type="text"]:first-child{
+    margin-left: 0;
+    border-radius: 10px 0 0 10px;
+}
+
+.form input[type="text"]:last-child{
+    margin-right: 0;
+    border-radius: 0 10px 10px 0;
+}
+
+.menu {
+    text-align: center;
+    font-size: 14px;
+    background-color: #3D3D3D;
+    padding: 20px 0;
+    margin-bottom: 1px;
+}
+
+.menu a{
+    color: #FFF;
+    margin: 20px 25px;
+}
+
+.menu a:hover{
+    color: #F79421;
+}
+
+.listing{
+    width: 100%;
+    background-color: #3D3D3D;
+    margin-bottom: 1px;
+    padding: 50px 0;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+
+.listing img{
+    height: 100%;
+    width: 23%;
+    position: absolute;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.imgleft{
+    transform: rotate(-20deg);
+    left:-170px;
+    bottom: -65px;
+}
+
+.imgright{
+    transform: rotate(-80deg);
+    right: -60px;
+    top: -150px;
+}
+
+.list{
+    width: 25%;
+    float: left;
+    font-family: 'Lato', sans-serif;
+}
+
+.list a{
+    font-size: 12px;
+    color: #BEBEBE;
+    line-height: 2;
+}
+
+.list a:hover{
+    color: #FFF;
+}
+
+a.first{
+    color: #FFF;
+    font-size: 14px;
+}
+
+footer{
+    background-color: #2b2b2b;
+    padding: 7px 0;
+}
+
+footer .wrapper div{
+    float: left;
+    width: 50%;
+    color: #FFF;
+}
+
+.copy p{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.copy{
+    padding: 8px 0;
+}
+
+.social{
+    text-align: right;
+}
+
+.social a{
+    display: inline-block;
+    height: 26px;
+    width: 26px;
+    margin: 0 10px;
+}
+
+.social a:hover{
+    opacity: 0.7;
+}
+
+.fb{
+    background-image: url("../images/fb.png");
+}
+
+.twitter{
+    background-image: url("../images/twitter.png");
+}
+
+.gplus{
+    background-image: url("../images/g-plus.png");
 }
