@@ -253,8 +253,10 @@ header {
     width: 20%;
     border-bottom: 2px solid #F79421;
     position: absolute;
-    top: 135%;
-    left: 40%;
+    bottom: -10px;
+    margin: auto;
+    left: 0;
+    right: 0;
 }
 
 .service-info p {
@@ -425,14 +427,20 @@ header {
     color: white;
 }
 
-.backimg {
-    position: absolute;
+.team::before {
+    content: "";
+    background-image: url(../images/logo_symbol.png);
+    background-repeat: no-repeat;
+    background-size: contain;
     height: 110%;
-    bottom: 0;
-    right: 50%;
+    width: 1600px;
+    position: absolute;
     top: -50px;
+    right: 0;
+    left: -50px;
     z-index: -1;
     opacity: 0.4;
+    margin: auto;
 }
 
 .title {
@@ -534,13 +542,17 @@ header {
     padding: 0 15px;
 }
 
-.line::after {
+.fields::before {
     content: '';
     display: inline-block;
-    width: 30px;
+    width: 700px;
     position: absolute;
     top: 50%;
     border-bottom: 1px solid #686868;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: -1;
 }
 
 .form input[type="text"] {
