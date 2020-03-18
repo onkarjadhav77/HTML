@@ -429,7 +429,7 @@ header {
     position: absolute;
     height: 110%;
     bottom: 0;
-    left: -80px;
+    right: 50%;
     top: -50px;
     z-index: -1;
     opacity: 0.4;
@@ -458,6 +458,13 @@ header {
 
 .wrapper.position {
     position: relative;
+}
+
+.wrapper.position::before{
+    height: 100px;
+    display: inline-block;
+    background-image: url("../images/logo_symbol.png");
+    position: absolute;
 }
 
 .member {
