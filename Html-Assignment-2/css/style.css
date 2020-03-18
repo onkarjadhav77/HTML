@@ -17,7 +17,6 @@ body {
     width: 1280px;
     overflow: hidden;
     margin: auto;
-    /* border: 2px solid red; */
 }
 
 a {
@@ -28,7 +27,6 @@ a {
 .button {
     background-color: #F79421;
     color: white;
-    margin-top: 50px;
     text-align: center;
     height: 50px;
     padding: 10px 50px;
@@ -39,7 +37,7 @@ a {
     border: none;
 }
 
-.button:hover{
+.button:hover {
     background-color: rgb(187, 112, 27);
 }
 
@@ -58,26 +56,26 @@ header {
 .head {
     float: right;
     overflow: hidden;
+    text-align: right;
 }
 
 .contact {
-    float: right;
     font-family: 'Lato', sans-serif;
     font-size: 12px;
     font-weight: 300;
 }
 
-.contact a{
+.contact a {
     margin: 0 10px;
 }
 
-.contact a:hover{
+.contact a:hover {
     color: #F79421;
 }
 
 .navigate {
     font-size: 16px;
-    margin-top: 60px;
+    padding: 60px 0 10px;
     font-weight: 600;
 }
 
@@ -120,14 +118,14 @@ header {
     margin-top: 50px;
 }
 
-.about{
+.about {
     overflow: hidden;
 }
 
 .info {
     float: left;
     width: 50%;
-    padding: 100px 0 ;
+    padding: 100px 0;
 }
 
 .info h5 {
@@ -200,6 +198,10 @@ header {
     line-height: 30px;
 }
 
+.midarea .button {
+    margin-top: 50px;
+}
+
 .services {
     padding: 100px 0;
 }
@@ -242,14 +244,17 @@ header {
     font-weight: 600;
     line-height: 2em;
     margin: 10px 0;
+    position: relative;
 }
 
-.service-info hr {
+.service-info h6::after {
+    content: '';
+    display: block;
     width: 20%;
-    border: none;
-    margin: auto;
-    height: 2px;
-    background-color: #F79421;
+    border-bottom: 2px solid #F79421;
+    position: absolute;
+    top: 135%;
+    left: 40%;
 }
 
 .service-info p {
@@ -310,7 +315,7 @@ header {
     margin: 30px 0;
 }
 
-.split a:hover{
+.split a:hover {
     opacity: 0.6;
 }
 
@@ -420,7 +425,6 @@ header {
     color: white;
 }
 
-
 .backimg {
     position: absolute;
     height: 110%;
@@ -452,24 +456,22 @@ header {
     margin-top: 80px;
 }
 
-.wrapper.position{
+.wrapper.position {
     position: relative;
 }
 
-.member{
+.member {
     height: 180px;
     width: 180px;
     border-radius: 50%;
     margin: 20px 0 20px 55px;
 }
 
-.member:hover{
+.member:hover {
     border: 1px double #e6e6e6;
-    /* box-shadow: 1px 1px 2px 2px rgb(85, 84, 83); */
-    /* opacity: 0.7; */
 }
 
-.arrow{
+.arrow {
     border: 1px solid white;
     padding: 10px;
     top: 50%;
@@ -478,7 +480,7 @@ header {
     right: 0;
 }
 
-.arrow:hover{
+.arrow:hover {
     opacity: 0.6;
 }
 
@@ -502,39 +504,39 @@ header {
     background-color: #FFF;
 }
 
-.form{
+.form {
     text-align: center;
     padding: 100px 0;
 }
 
-.fields{
+.fields {
     overflow: hidden;
     position: relative;
     margin-top: 50px;
 }
 
-.line{
-    width: 70%;
-    border-top: 1px solid #686868;
-    position: absolute;
-    top: 50%;
-    left: 15%;
-    z-index: -1;
-}
-
-.form h3{
+.form h3 {
     font-size: 40px;
     font-weight: 700;
     line-height: 1.5;
 }
 
-.textbox{
+.textbox {
     width: 25%;
     float: left;
-    padding: 0 10px;
+    padding: 0 15px;
 }
 
-.form input[type="text"]{
+.line::after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    position: absolute;
+    top: 50%;
+    border-bottom: 1px solid #686868;
+}
+
+.form input[type="text"] {
     width: 100%;
     font-size: 18px;
     font-family: 'Lato', sans-serif;
@@ -542,15 +544,16 @@ header {
     padding: 10px;
 }
 
-
-.firstbox{
-    margin-left: 0;
+.firstbox {
     border-radius: 10px 0 0 10px;
 }
 
-.lastbox{
-    margin-right: 0;
+.lastbox {
     border-radius: 0 10px 10px 0;
+}
+
+.form .button {
+    margin-top: 50px;
 }
 
 .menu {
@@ -561,119 +564,111 @@ header {
     margin-bottom: 1px;
 }
 
-.menu a{
+.menu a {
     color: #FFF;
     margin: 20px 25px;
 }
 
-.menu a:hover{
+.menu a:hover {
     color: #F79421;
 }
 
-.listing{
+.listing {
     width: 100%;
     background-color: #3D3D3D;
     margin-bottom: 1px;
     overflow: hidden;
+    position: relative;
+    margin: auto;
+    padding: 50px 0;
     z-index: 1;
 }
 
-
-
-.cover{
-    width: 100%;
-    height: 100%;
-    max-width: 1600px;
-    position: relative;
-    margin: auto;
-    overflow: hidden;
-    padding: 50px 0;
-}
-
-.listing img{
-    width: 20%;
+.listing img {
+    width: 400px;
     position: absolute;
     opacity: 0.4;
+    z-index: -1;
 }
 
-.imgleft{
-    transform: rotate(-19deg);
-    left: -156px;
-    bottom: -60px;
+.imgleft {
+    transform: rotate(-15deg);
+    left: -220px;
+    bottom: -70px;
 }
 
-.imgright{
+.imgright {
     transform: rotate(-80deg);
-    right: -60px;
-    top: -150px;
+    right: -80px;
+    top: -190px;
 }
 
-.list{
+.list {
     width: 25%;
     float: left;
     font-family: 'Lato', sans-serif;
 }
 
-.list a{
+.list a {
     display: block;
     font-size: 12px;
     color: #BEBEBE;
     line-height: 2;
 }
 
-.list a:hover{
+.list a:hover {
     color: #FFF;
 }
 
-h6.first{
+h6.first {
     color: #FFF;
     font-size: 14px;
     line-height: 1.5;
 }
 
-footer{
+footer {
     background-color: #2b2b2b;
     padding: 7px 0;
 }
 
-footer .wrapper div{
+footer .wrapper div {
     float: left;
     width: 50%;
     color: #FFF;
 }
 
-.copy p{
+.copy p {
     font-size: 12px;
     font-weight: 400;
 }
 
-.copy{
+.copy {
     padding: 8px 0;
 }
 
-.social{
+.social {
     text-align: right;
 }
 
-.social a{
+.social a {
     display: inline-block;
     height: 26px;
     width: 26px;
     margin: 0 10px;
 }
 
-.social a:hover{
+.social a:hover {
     opacity: 0.7;
 }
 
-.fb{
+.fb {
     background-image: url("../images/fb.png");
 }
 
-.twitter{
+.twitter {
     background-image: url("../images/twitter.png");
 }
 
-.gplus{
+.gplus {
     background-image: url("../images/g-plus.png");
 }
