@@ -1,0 +1,693 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #292929;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.wrapper {
+    width: 1280px;
+    overflow: hidden;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #292929;
+}
+
+.button {
+    background-color: #F79421;
+    color: white;
+    text-align: center;
+    height: 50px;
+    padding: 10px 50px;
+    font-size: 20px;
+    display: inline-block;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+}
+
+.button:hover {
+    background-color: rgb(187, 112, 27);
+}
+
+header {
+    padding-top: 10px;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background-color: white;
+}
+
+.logo {
+    float: left;
+}
+
+.head {
+    float: right;
+    overflow: hidden;
+    text-align: right;
+}
+
+.contact {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.contact a {
+    margin: 0 10px;
+}
+
+.contact a:hover {
+    color: #F79421;
+}
+
+.navigate {
+    font-size: 16px;
+    padding: 50px 0 10px;
+    font-weight: 600;
+}
+
+.navigate a {
+    margin-left: 40px;
+}
+
+.navigate a:hover {
+    color: #F79421;
+    text-decoration: underline;
+}
+
+.banner {
+    height: 600px;
+    background-image: url("../images/banner_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 105px;
+}
+
+.texts {
+    position: relative;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: 600;
+}
+
+.texts h2 {
+    font-size: 74px;
+}
+
+.texts h3 {
+    font-size: 52px;
+}
+
+.texts p {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.about {
+    overflow: hidden;
+}
+
+.info {
+    float: left;
+    width: 50%;
+    padding: 100px 0;
+}
+
+.info h5 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.info h5 span {
+    color: #0872BA;
+}
+
+.info p {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    margin: 30px 0 0;
+    line-height: 1.5;
+}
+
+.info {
+    clear: both;
+}
+
+.visible {
+    overflow: visible;
+    position: relative;
+}
+
+.clear {
+    clear: both;
+}
+
+.logoimg {
+    position: absolute;
+    top: -50px;
+    right: -42px;
+    bottom: 0;
+}
+
+.lady {
+    position: absolute;
+    right: 280px;
+    bottom: 0;
+}
+
+.consult {
+    height: 464px;
+    background-image: url("../images/middle_banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.colorover {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(8, 114, 186, 0.7);
+    text-align: center;
+    padding: 100px 0;
+}
+
+.midarea {
+    padding: 35px 230px;
+}
+
+.midarea p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFF;
+    line-height: 30px;
+}
+
+.midarea .button {
+    margin-top: 50px;
+}
+
+.services {
+    padding: 100px 0;
+}
+
+.service-text {
+    text-align: center;
+    color: #292929;
+}
+
+.service-text h3 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.service-text p {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    line-height: 2em;
+}
+
+.service-info {
+    overflow: hidden;
+    margin: 0 -75px;
+}
+
+.service-info div {
+    width: 25%;
+    float: left;
+    text-align: center;
+    padding: 100px 70px 0;
+}
+
+.service-info img {
+    height: 48px;
+}
+
+.service-info h6 {
+    color: #143763;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 2em;
+    margin: 10px 0;
+    position: relative;
+}
+
+.service-info h6::after {
+    content: '';
+    display: block;
+    width: 20%;
+    border-bottom: 2px solid #F79421;
+    position: absolute;
+    bottom: -10px;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.service-info p {
+    font-size: 12px;
+    line-height: 1.5em;
+    padding: 10px 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.section-num {
+    height: 470px;
+    background-image: url("../images/figures_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    color: white;
+    text-align: center;
+}
+
+.section-num p {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.5em;
+    padding: 0 280px;
+}
+
+.number {
+    overflow: hidden;
+    padding: 0 50px;
+}
+
+.number div {
+    width: 25%;
+    float: left;
+    padding: 50px 0 0;
+}
+
+.number h3 {
+    font-size: 58px;
+    line-height: 1.5em;
+}
+
+.number label {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+}
+
+.split {
+    overflow: auto;
+}
+
+.split a {
+    font-size: 22px;
+    font-weight: 500;
+    display: inline-block;
+    text-decoration: underline;
+    margin: 30px 0;
+}
+
+.split a:hover {
+    opacity: 0.6;
+}
+
+.split p {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    line-height: 25px;
+}
+
+.video {
+    width: 50%;
+    float: left;
+    height: 500px;
+    background-image: url("../images/business.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+.detail {
+    width: 50%;
+    height: 500px;
+    float: left;
+    background-color: #e6e6e6;
+    position: relative;
+    color: #292929;
+}
+
+.client {
+    width: 640px;
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    text-align: left;
+    padding: 10px 20px;
+}
+
+.client.bg {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.study {
+    width: 640px;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    text-align: right;
+    padding: 10px 20px;
+}
+
+.study.bg {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.client-content {
+    width: 640px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: auto;
+    text-align: center;
+    padding: 206px 100px 50px;
+}
+
+.study-content {
+    width: 640px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: auto;
+    text-align: center;
+    padding: 50px 100px;
+}
+
+.study-content img {
+    margin-bottom: 30px;
+}
+
+.study a {
+    color: #143763;
+}
+
+.video a {
+    color: white;
+}
+
+.study h3 {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.client h3 {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.team {
+    position: relative;
+    background-color: #363636;
+    z-index: -2;
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.team::before {
+    content: "";
+    background-image: url(../images/logo_symbol.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 110%;
+    width: 1600px;
+    position: absolute;
+    top: -50px;
+    right: 0;
+    left: -50px;
+    z-index: -1;
+    opacity: 0.4;
+    margin: auto;
+}
+
+.title {
+    margin: auto;
+    text-align: center;
+}
+
+.title h3 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.title p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.people {
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 80px;
+}
+
+.wrapper.position {
+    position: relative;
+}
+
+.wrapper.position::before{
+    height: 100px;
+    display: inline-block;
+    background-image: url("../images/logo_symbol.png");
+    position: absolute;
+}
+
+.member {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    margin: 20px 0 20px 55px;
+}
+
+.member:hover {
+    border: 1px double #e6e6e6;
+}
+
+.arrow {
+    border: 1px solid white;
+    padding: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    right: 0;
+}
+
+.arrow:hover {
+    opacity: 0.6;
+}
+
+.indicator {
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 25px;
+}
+
+.indicator a {
+    height: 14px;
+    width: 14px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: inline-block;
+    cursor: pointer;
+}
+
+.indicator a:first-child {
+    background-color: #FFF;
+}
+
+.form {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.fields {
+    overflow: hidden;
+    position: relative;
+    margin-top: 50px;
+}
+
+.form h3 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.textbox {
+    width: 25%;
+    float: left;
+    padding: 0 15px;
+}
+
+.fields::before {
+    content: '';
+    display: inline-block;
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    border-bottom: 1px solid #686868;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: -1;
+}
+
+.form input[type="text"] {
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    border: 1px solid #686868;
+    padding: 10px;
+}
+
+.firstbox {
+    border-radius: 10px 0 0 10px;
+}
+
+.lastbox {
+    border-radius: 0 10px 10px 0;
+}
+
+.form .button {
+    margin-top: 50px;
+}
+
+.menu {
+    text-align: center;
+    font-size: 14px;
+    background-color: #3D3D3D;
+    padding: 20px 0;
+    margin-bottom: 1px;
+}
+
+.menu a {
+    color: #FFF;
+    margin: 20px 25px;
+}
+
+.menu a:hover {
+    color: #F79421;
+}
+
+.listing {
+    width: 100%;
+    background-color: #3D3D3D;
+    margin-bottom: 1px;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    padding: 50px 0;
+    z-index: 1;
+}
+
+.listing img {
+    width: 400px;
+    position: absolute;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.imgleft {
+    transform: rotate(-15deg);
+    left: -220px;
+    bottom: -70px;
+}
+
+.imgright {
+    transform: rotate(-80deg);
+    right: -80px;
+    top: -190px;
+}
+
+.list {
+    width: 25%;
+    float: left;
+    font-family: 'Lato', sans-serif;
+}
+
+.list a {
+    display: block;
+    font-size: 12px;
+    color: #BEBEBE;
+    line-height: 2;
+}
+
+.list a:hover {
+    color: #FFF;
+}
+
+h6.first {
+    color: #FFF;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #2b2b2b;
+    padding: 7px 0;
+}
+
+footer .wrapper div {
+    float: left;
+    width: 50%;
+    color: #FFF;
+}
+
+.copy p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.copy {
+    padding: 8px 0;
+}
+
+.social {
+    text-align: right;
+}
+
+.social a {
+    display: inline-block;
+    height: 26px;
+    width: 26px;
+    margin: 0 10px;
+}
+
+.social a:hover {
+    opacity: 0.7;
+}
+
+.fb {
+    background-image: url("../images/fb.png");
+}
+
+.twitter {
+    background-image: url("../images/twitter.png");
+}
+
+.gplus {
+    background-image: url("../images/g-plus.png");
+}
